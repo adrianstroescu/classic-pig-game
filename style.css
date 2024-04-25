@@ -169,3 +169,30 @@ main {
 .hidden {
   display: none;
 }
+
+@media only screen and (max-width: 767px) {
+  .player {
+    padding: 15px;
+  }
+  .name {
+    font-size: 24px;
+  }
+  .btn {
+    padding: 0.7rem 1.5rem;
+  }
+  .score {
+    margin-top: auto;
+  }
+  .btn--new {
+    top: 99px;
+  }
+  .btn--roll {
+    top: 33.3rem;
+  }
+  .btn--hold {
+    top: 39.1rem;
+  }
+  .current {
+    width: 90%;
+  }
+}
