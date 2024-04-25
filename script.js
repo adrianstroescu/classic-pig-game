@@ -2,7 +2,7 @@
 
 // Selecting elements
 const score0EL = document.querySelector('#score--0');
-const score1EL = docuemnt.querySelector('score--1');
+const score1EL = document.getElementById('score--1');
 const diceEL = document.querySelector('.dice');
 
 // Starting conditions
